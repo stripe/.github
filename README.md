@@ -1,1 +1,0 @@
-Default community health files
