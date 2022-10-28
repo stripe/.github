@@ -13,7 +13,7 @@ To make changes yourself, follow these steps:
 
 ## Contributor License Agreement ([CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement))
 
-Once you have submitted a pull request, sign the CLA by badge in the comment from [@CLAassistant](https://github.com/CLAassistant).
+Once you have submitted a pull request, sign the CLA by clicking on the badge in the comment from [@CLAassistant](https://github.com/CLAassistant).
 
 <img width="910" alt="image" src="https://user-images.githubusercontent.com/62121649/198740836-70aeb322-5755-49fc-af55-93c8e8a39058.png">
 
