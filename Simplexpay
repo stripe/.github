@@ -1,0 +1,27 @@
+
+const cardNameContainer = document.getElementById("card-name-field-container");
+const nameField = cardField.NameField({
+  placeholder: "Enter your full name as it appears on your card",
+inputEvents: {
+    onChange: (event)=> {
+        console.log("returns a stateObject", event);
+    }
+},
+style: {
+    ".invalid": {
+        "color": "purple",
+    }
+}
+});
+  });
+nameField.render(cardNameContainer);
+const cardNumberContainer = document.getElementById("card-number-field-container");
+const numberField = cardField.NumberField(/*options*/);
+numberField.render(cardNumberContainer);
+const cardExpiryContainer = document.getElementById("card-expiry-field-container");
+const expiryField = cardField.ExpiryField(/*options*/);
+expiryField.render(cardExpiryContainer);
+const cardCvvContainer = document.getElementById("card-cvv-field-container");
+const cvvField = cardField.CVVField(/*options*/);
+cvvField.render(cardCvvContainer);
+![CheckoutFlow (1)](https://github.com/user-attachments/assets/5c960544-8444-4882-aa60-eb40b1dc471d)
