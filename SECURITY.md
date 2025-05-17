@@ -1,8 +1,26 @@
 # Security Policy
 
-### Reporting a vulnerability
+## Supported Versions
 
-Please do not open GitHub issues or pull requests - this makes the problem immediately visible to everyone, including malicious actors.   
+The following versions are currently being supported with security updates:
 
-Security issues in this open-source project can be safely reported to Stripe's [Vulnerability Disclosure and Reward Program](https://stripe.com/docs/security/stripe#disclosure-and-reward-program).
-Stripe's security team will triage your report and respond according to its impact on Stripe users and systems.
+| Version | Supported          |
+|---------|--------------------|
+| 1.x     | ✅                 |
+| < 1.0   | ❌                 |
+
+## Reporting a Vulnerability
+
+If you believe you have found a security vulnerability in this project, we encourage you to report it responsibly.
+
+Please follow these steps:
+
+1. **Do not create a public issue.**
+2. **Email us at:** security@viviarentals.com with the following details:
+   - A description of the issue
+   - Steps to reproduce the vulnerability
+   - Your name and GitHub username (optional for credit)
+
+We aim to respond to all security reports within 72 hours. Once the issue is verified, we will take the necessary steps to resolve it and may credit the reporter unless anonymity is requested.
+
+Thank you for helping make VIVIA CONNECT secure.
