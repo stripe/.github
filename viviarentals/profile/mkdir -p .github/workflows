@@ -1,0 +1,28 @@
+name: Deploy VIVIA CONNECT
+
+on:
+  push:
+    paths:
+      - 'viviarentals/profile/**'
+      - '.github/workflows/deploy.yml'
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and Deploy
+        run: npm run deploy  # replace with your deploy command

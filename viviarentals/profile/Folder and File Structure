@@ -1,0 +1,8 @@
+viviarentals/
+├── profile/
+│   ├── config.json         # Profile config file
+│   └── README.md           # Markdown summary of the profile
+├── .github/
+│   ├── workflows/
+│   │   └── deploy.yml      # GitHub Actions workflow
+│   └── webhook-handler/    # (Optional) if handling custom webhooks
