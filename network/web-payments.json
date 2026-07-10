@@ -1,0 +1,10 @@
+{
+  "network": "web-payments",
+  "qr_code": "https://www.almzag-events.net/apple-pay-qr.png",
+  "payment_method": "Apple Pay",
+  "invoice": {
+    "amount": 50000,
+    "currency": "AED",
+    "details": "Payment for client - Amount: 500, Fee included."
+  }
+}
